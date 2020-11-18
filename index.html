@@ -353,16 +353,61 @@
                     </li>
                 </ul>
             </div>
+
+            <div class="subscribe-container">
+                <p class="join">Подпишитесь на рассылку</p>
+                <div class="form-footer">
+                    <input type="email" placeholder="E-mail">
+                    <button class="subscribe-btn">Подписаться</button>
+                </div>
+            </div>
         </div>
     </footer>
 
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button class="btn-close" data-modal-close>
-                <svg width="11" height="11">
-                    <use href='./imeges/icons/sprite.svg#icon-close'></use>
-                </svg>
-            </button>
+            <div class="modal">
+                <button class="btn-close" data-modal-close>
+                    <svg width="11" height="11">
+                        <use href='./imeges/icons/sprite.svg#icon-close'></use>
+                    </svg>
+                </button>
+            </div>
+                
+                    <form class="form">
+                        <div class="form-field">
+                            <b class="form-text">Оставьте свои данные, мы вам перезвоним</b>
+                            <label for="user-name" class="label">Имя</label>
+                            <input type="text" name="user-name" id="user-name">
+                        </div>
+
+                        <div class="form-field">
+                            <label for="tel">Телефон</label>
+                            <input type="tel" name="tel" id="tel">
+                        </div>
+
+                        <div class="form-field">
+                            <label for="mail">Почта</label>
+                            <input type="email" name="email" id="mail">
+                        </div>
+
+                        <div class="form-field">
+                            <label for="comment">Комментарий</label>
+                            <textarea name="comment" id="comment" rows="10" placeholder="Введите текст"></textarea>
+                        </div>
+
+                        <div class="form-checkbox">
+                            <input type="checkbox" name="policy" id="policy">
+                            <label for="policy">Соглашаюсь с рассылкой и принимаю 
+                                <a href="">Условия договора</a>
+                            </label>
+                        </div>
+
+                        <div class="form-submit">
+                            <button type="submit" class="submit">Отправить</button>
+                        </div>
+                    </form>
+                
         </div>
     </div>
 
