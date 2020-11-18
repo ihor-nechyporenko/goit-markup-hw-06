@@ -357,8 +357,12 @@
             <div class="subscribe-container">
                 <p class="join">Подпишитесь на рассылку</p>
                 <div class="form-footer">
-                    <input type="email" placeholder="E-mail">
-                    <button class="subscribe-btn">Подписаться</button>
+                    <input type="email" name="e-mail" placeholder="E-mail">
+                    <button class="subscribe-btn">Подписаться
+                        <svg class="icon-send" width="24" height="24">
+                            <use href='./imeges/icons/sprite.svg#icon-send'></use>
+                        </svg>
+                    </button>
                 </div>
             </div>
         </div>
@@ -368,7 +372,7 @@
         <div class="modal">
             <div class="modal">
                 <button class="btn-close" data-modal-close>
-                    <svg width="11" height="11">
+                    <svg class="icon-close" width="11" height="11">
                         <use href='./imeges/icons/sprite.svg#icon-close'></use>
                     </svg>
                 </button>
@@ -388,12 +392,12 @@
 
                         <div class="form-field">
                             <label for="mail">Почта</label>
-                            <input type="email" name="email" id="mail">
+                            <input type="email" name="mail" id="mail">
                         </div>
 
                         <div class="form-field">
                             <label for="comment">Комментарий</label>
-                            <textarea name="comment" id="comment" rows="10" placeholder="Введите текст"></textarea>
+                            <textarea name="comment" id="comment" placeholder="Введите текст"></textarea>
                         </div>
 
                         <div class="form-checkbox">
