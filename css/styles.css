@@ -824,7 +824,6 @@ footer (secondary bg color) #2F303A */
     .form {
         width: 448px;
         margin: 40px;;
-        /* outline: solid green 5px; */
         z-index: 1;
     }
 
@@ -838,9 +837,12 @@ footer (secondary bg color) #2F303A */
     }
 
     .form-field input {
+        position: relative;
         margin: 0;
         padding: 0;
+        padding-left: 42px;
         height: 40px;
+        width: 100%;
 
         border: 1px solid rgba(33, 33, 33, 0.2);
         border-radius: 4px;
@@ -952,6 +954,18 @@ footer (secondary bg color) #2F303A */
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         cursor: pointer;
     }
+
+    .form-input {
+        position: relative;
+    }
+
+    .icon-form {
+        position: absolute;
+        margin-left: 15px;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        }
 
 
 
