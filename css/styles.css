@@ -975,6 +975,12 @@ footer (secondary bg color) #2F303A */
         position: absolute;
     }
 
+    .checkbox-label {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .custom-checkbox {
         display: block;
         width: 16px;
