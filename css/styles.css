@@ -904,11 +904,11 @@ footer (secondary bg color) #2F303A */
         margin-top: 20px;
     }
 
-    .form-checkbox input[type='checkbox'] {
+    /* .form-checkbox input[type='checkbox'] {
         width: 16px;
         height: 15px;
         margin-right: 7px;
-    }
+    } */
 
     .form-checkbox label {
         margin: 0;
@@ -967,6 +967,38 @@ footer (secondary bg color) #2F303A */
         transform: translateY(-50%);
         }
 
+    .checkbox {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none
+
+        position: absolute;
+    }
+
+    .custom-checkbox {
+        display: block;
+        width: 16px;
+        height: 15px;
+        margin-right: 7px;
+        background-image: url(../imeges/icons/check.svg);
+    }
+
+    .checkbox:checked + .custom-checkbox {
+        background-image: url(../imeges/icons/checked.svg);
+    }
+
+    /* .checkbox-label::before {
+        content: '';
+        display: inline-block;
+        width: 16px;
+        height: 15px;
+        margin-right: 7px;
+        background-image: url(../imeges/icons/check.svg);
+    }
+
+    .checkbox:checked + .checkbox-label::before {
+        background-image: url(../imeges/icons/checked.svg);
+    } */
 
 
     /* ./Portfolio.html */
